@@ -105,19 +105,9 @@ hr{
 
 @media screen and (max-width: 580px){
     .topBg:after{
-        content: url('../images/bg-pattern-top.svg');
-        position: absolute;
-        top: 0;
-        left: 0;
         transform: translate(-70%, -50%);
-        opacity: .5;
     }
     .bottomBg:after{
-        content: url('../images/bg-pattern-bottom.svg');
-        position: absolute;
-        bottom: 0;
-        right: 0;
         transform: translate(80%, 50%);
-        opacity: .5;
     }
 }
